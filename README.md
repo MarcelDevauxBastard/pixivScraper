@@ -2,7 +2,7 @@
 
 ## About
 
-The pixivScraper project aims to provide a simple API written in pure C language to automate the downloading of artworks from the website https://www.pixiv.net
+The pixivScraper project aims to provide a simple API written in pure C language to automate the downloading of artworks from the website [pixiv](https://www.pixiv.net)
 It also provides a simple CLI tool to download the artworks manually.
 
 ## Built with
@@ -24,23 +24,23 @@ It also provides a simple CLI tool to download the artworks manually.
 
 ### Usage
 
-General case : call '''sh
+General case : call ```sh
 <path to the pixivScraper executable> <command name> <additional parameters>
-'''.
+```.
 
 Some examples :
-* Call '''sh
+* Call ```sh
 ./pixivScraper.exe help
-''' to display information about pixivScraper commands.
-* Call '''sh
+``` to display information about pixivScraper commands.
+* Call ```sh
 ./pixivScraper.exe help <command name>
-''' to display more information about a pixivScraper command.
-* Call '''sh
+``` to display more information about a pixivScraper command.
+* Call ```sh
 ./pixivScraper.exe dlUser <userId>
-''' to download all the artworks of a user.
-* Call '''sh
+``` to download all the artworks of a user.
+* Call ```sh
 ./pixivScraper.exe dlIllustrations
-''' to download a list of artworks from a list of illustration ids (by default `./illustrationList.txt`).
+``` to download a list of artworks from a list of illustration ids (by default `./illustrationList.txt`).
 
 Seven commands are available for now :
 * dlIllustration          Downloads an illustration from its illustration id.
