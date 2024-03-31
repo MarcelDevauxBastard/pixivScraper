@@ -57,7 +57,7 @@ For more information, use the `help` command.
 
 * Download the latest libcurl SDK release at `https://curl.se/windows/`
 * Extract the `bin`, `include` and `lib` folders into your project's files
-* Download the latest cJSON release
+* Download the latest cJSON release at `https://github.com/DaveGamble/cJSON/releases`
 * Extract the `cJSON.h` and the `cJSON.c` files to your include folder and your source folder
 * Download the latest pixivLib SDK release
 * Extract the `include` and `src` folder into your project's files
