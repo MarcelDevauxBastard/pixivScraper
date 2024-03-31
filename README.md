@@ -7,9 +7,9 @@ It also provides a simple CLI tool to download the artworks manually.
 
 ## Built with
 
-* Compiled using MinGW-w64
-* Built with libcurl
-* Built with cJSON
+* Compiled using [MinGW-w64](https://www.mingw-w64.org/)
+* Built with [libcurl](https://curl.se/libcurl/)
+* Built with [cJSON](https://github.com/DaveGamble/cJSON)
 
 
 # The pixivScraper CLI tool
@@ -57,6 +57,8 @@ For more information, use the `help` command.
 
 * Download the latest libcurl SDK release at `https://curl.se/windows/`
 * Extract the `bin`, `include` and `lib` folders into your project's files
+* Download the latest cJSON release
+* Extract the `cJSON.h` and the `cJSON.c` files to your include folder and your source folder
 * Download the latest pixivLib SDK release
 * Extract the `include` and `src` folder into your project's files
 * Include the headers `curl/curl.h` and `pixivLib.h` in your main file
