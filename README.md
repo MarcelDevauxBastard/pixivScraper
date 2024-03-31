@@ -1,28 +1,28 @@
-#The pixivScraper project
+# The pixivScraper project
 
-##About
+## About
 
 The pixivScraper project aims to provide a simple API written in pure C language to automate the downloading of artworks from the website https://www.pixiv.net
 It also provides a simple CLI tool to download the artworks manually.
 
-##Built with
+## Built with
 
 * Compiled using MinGW-w64
 * Built with libcurl
 * Built with cJSON
 
 
-#The pixivScraper CLI tool
+# The pixivScraper CLI tool
 
-##How to use it ?
+## How to use it ?
 
-###Installation
+### Installation
 
 * Download the latest release
 * Extract the file
 * Done
 
-###Usage
+### Usage
 
 General case : call '''sh
 <path to the pixivScraper executable> <command name> <additional parameters>
@@ -59,11 +59,11 @@ The following additional parameters come into effect for most commands :
 For more information, use the `help` command.
 
 
-#The pixivLib library
+# The pixivLib library
 
-##How to use it ?
+## How to use it ?
 
-###Installation
+### Installation
 
 * Download the latest libcurl SDK release at `https://curl.se/windows/`
 * Extract the `bin`, `include` and `lib` folders into your project's files
@@ -71,7 +71,7 @@ For more information, use the `help` command.
 * Extract the `include` and `src` folder into your project's files
 * Include the headers `curl/curl.h` and `pixivLib.h` in your main file
 
-###Usage
+### Usage
 
 !!! pixivLib does not initialize libcurl. You need to call `curl_global_init()` at least once per program before using any function of pixivLib and `curl_global_cleanup()` at the end.
 
