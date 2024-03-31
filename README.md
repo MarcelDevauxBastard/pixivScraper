@@ -24,21 +24,21 @@ It also provides a simple CLI tool to download the artworks manually.
 
 ### Usage
 
-General case : call ```sh
+General case : call ```
 <path to the pixivScraper executable> <command name> <additional parameters>
 ```.
 
 Some examples :
-* Call ```sh
+* Call ```
 ./pixivScraper.exe help
 ``` to display information about pixivScraper commands.
-* Call ```sh
+* Call ```
 ./pixivScraper.exe help <command name>
 ``` to display more information about a pixivScraper command.
-* Call ```sh
+* Call ```
 ./pixivScraper.exe dlUser <userId>
 ``` to download all the artworks of a user.
-* Call ```sh
+* Call ```
 ./pixivScraper.exe dlIllustrations
 ``` to download a list of artworks from a list of illustration ids (by default `./illustrationList.txt`).
 
