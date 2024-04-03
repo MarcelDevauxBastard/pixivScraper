@@ -24,15 +24,15 @@ It also provides a simple CLI tool to download the artworks manually.
 
 ### Usage
 
-General case : call `<path to the pixivScraper executable> <command name> <additional parameters>`.
+General case: call `<path to the pixivScraper executable> <command name> <additional parameters>`.
 
-Some examples :
+Some examples:
 * Call `./pixivScraper.exe help` to display information about pixivScraper commands.
 * Call `./pixivScraper.exe help <command name>` to display more information about a pixivScraper command.
 * Call `./pixivScraper.exe dlUser <userId>` to download all the artworks of a user.
 * Call `./pixivScraper.exe dlIllustrations` to download a list of artworks from a list of illustration ids (by default `./illustrationList.txt`).
 
-Seven commands are available for now :
+Seven commands are available for now:
 * `dlIllustration` Downloads an illustration from its illustration id.
 * `dlIllustrations` Downloads a list of illustrations from a text file of illustration ids.
 * `dlImage` Downloads an image from its url.
@@ -41,7 +41,7 @@ Seven commands are available for now :
 * `dlUsers` Downloads the artworks of a list of users from a text file of user ids.
 * `help` Shows information about pixivScraper commands.
 
-The following additional parameters come into effect for most commands :
+The following additional parameters come into effect for most commands:
 * `-d <destination>` Specifies where the ressources should be downloaded.
 * `-l <path to the list>` Specifies the path to a list of imageUrls/illustrationIds/userIds we want to download.
 * `-p <parallel downloads>` Specifies the maximum concurrent downloads to process.
@@ -67,7 +67,7 @@ For more information, use the `help` command.
 
 !!! pixivLib does not initialize libcurl. Be sure to call `curl_global_init()` at least once per program before using any function of pixivLib and `curl_global_cleanup()` at the end.
 
-Six functions are available for now :
+Six functions are available for now:
 * `pixiv_downloadImage()` Downloads an image from its url.
 * `pixiv_downloadIllustration()` Downloads an illustration from its illustration id.
 * `pixiv_downloadUser()` Downloads a user's artworks from its user id.
