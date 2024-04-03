@@ -19,7 +19,7 @@ It also provides a simple CLI tool to download the artworks manually.
 ### Installation
 
 * Download the latest release
-* Extract the file
+* Extract the files
 * Done
 
 ### Usage
@@ -60,7 +60,7 @@ For more information, use the `help` command.
 * Download the latest cJSON release at `https://github.com/DaveGamble/cJSON/releases`
 * Extract the `cJSON.h` and the `cJSON.c` files to your include folder and your source folder
 * Download the latest pixivLib SDK release
-* Extract the `include` and `src` folder into your project's files
+* Extract the `include` and `src` folders into your project's files
 * Include the headers `curl/curl.h` and `pixivLib.h` in your main file
 
 ### Usage
