@@ -55,7 +55,7 @@ For more information, use the `help` command.
 
 ### Installation
 
-* Download the latest libcurl SDK release at `https://curl.se/windows/`
+* Download the latest libcurl SDK release at `https://curl.se/download.html`
 * Extract the `bin`, `include` and `lib` folders into your project's files
 * Download the latest cJSON release at `https://github.com/DaveGamble/cJSON/releases`
 * Extract the `cJSON.h` and the `cJSON.c` files to your include folder and your source folder
@@ -65,7 +65,7 @@ For more information, use the `help` command.
 
 ### Usage
 
-!!! pixivLib does not initialize libcurl. You need to call `curl_global_init()` at least once per program before using any function of pixivLib and `curl_global_cleanup()` at the end.
+!!! pixivLib does not initialize libcurl. Be sure to call `curl_global_init()` at least once per program before using any function of pixivLib and `curl_global_cleanup()` at the end.
 
 Six functions are available for now :
 * `pixiv_downloadImage()` Downloads an image from its url.
