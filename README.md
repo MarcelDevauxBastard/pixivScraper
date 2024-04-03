@@ -30,7 +30,7 @@ Some examples:
 * Call `./pixivScraper.exe help` to display information about pixivScraper commands.
 * Call `./pixivScraper.exe help <command name>` to display more information about a pixivScraper command.
 * Call `./pixivScraper.exe dlUser <userId>` to download all the artworks of a user.
-* Call `./pixivScraper.exe dlIllustrations` to download a list of artworks from a list of illustration ids (by default `./illustrationList.txt`).
+* Call `./pixivScraper.exe dlIllustrations` to download a list of artworks from a list of illustration ids (default: `./illustrationList.txt`).
 
 Seven commands are available for now:
 * `dlIllustration` Downloads an illustration from its illustration id.
